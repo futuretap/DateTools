@@ -9,6 +9,7 @@ let package = Package(
         .iOS(.v12),
         .tvOS(.v12),
         .macOS(.v10_13),
+        .watchOS(.v9),
     ],
     products: [
         .library(name: "DateToolsSwift", targets: ["DateToolsSwift"]),
